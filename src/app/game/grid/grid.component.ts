@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GridComponent implements OnInit {
 
+  status: string = ' ';
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(clickOn: string) {
+    this.status = clickOn;
   }
 
 }
