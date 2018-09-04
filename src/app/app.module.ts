@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { BoardComponent } from './game/board/board.component';
+import { GridComponent } from './game/grid/grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoardComponent
+    BoardComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
