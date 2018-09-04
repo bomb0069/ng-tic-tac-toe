@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { BoardComponent } from './game/board/board.component';
 import { GridComponent } from './game/grid/grid.component';
+import { ThisTurnComponent } from './game/this-turn/this-turn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
-    GridComponent
+    GridComponent,
+    ThisTurnComponent
   ],
   imports: [
     BrowserModule,
