@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Grid } from '../grid/grid';
 
 @Component({
   selector: 'app-board',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoardComponent implements OnInit {
 
+  grids: Grid[][] = [ [new Grid(),new Grid(),new Grid()],
+                      [new Grid(),new Grid(),new Grid()],
+                      [new Grid(),new Grid(),new Grid()]];
   constructor() { }
 
   ngOnInit() {

@@ -10,29 +10,7 @@
           <app-this-turn></app-this-turn>
       </th>
   </tr>
-  <tr>
-    <td>
-      <app-grid></app-grid>
-    </td>
-    <td>
-      <app-grid></app-grid>
-    </td>
-    <td>
-      <app-grid></app-grid>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <app-grid></app-grid>
-    </td>
-    <td>
-      <app-grid></app-grid>
-    </td>
-    <td>
-      <app-grid></app-grid>
-    </td>
-  </tr>
-  <tr>
+  <tr *ngFor="let rows-grid of grids">
     <td>
       <app-grid></app-grid>
     </td>
